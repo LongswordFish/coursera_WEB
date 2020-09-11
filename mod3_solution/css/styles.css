@@ -1,0 +1,156 @@
+body {
+    font-size: 16px;
+    color: black;
+    background-color:white;
+    font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/ 
+#header-nav {
+    background-color:red;
+    border-radius: 0;
+    border: 0;
+}
+.navbar .container{
+    margin-bottom:15px;
+}
+.navbar-brand {
+    padding-top: 25px;
+}
+.navbar-brand h1 { /* company name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-left:0;
+  margin-bottom: 0;
+} 
+#nav-list {
+    margin-top: 10px;
+}
+#nav-list a {
+    color: black;
+    text-align: center;
+}
+#nav-list a:hover {
+    background: #E7E7E7;
+}
+.nav-title{
+    font-size:1.8em;
+    text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -30px;
+}
+/* END HEADER */
+
+/* MAIN CONTENT */
+#main-content {
+    height:1000px;
+}
+.text-center{
+    text-align: center;
+    margin-bottom:20px;
+}
+h2{
+    font-size:2.5em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile{
+    height:700px;
+    position: relative;
+}
+#chicken-tile{
+    background-color:rgb(80, 192, 16);
+}
+#beef-tile{
+    background-color:rgb(18, 143, 165);
+}
+#sushi-tile{
+    background-color:rgb(173, 20, 166);
+}
+
+#main-content h3{
+    padding-top:20px;
+    text-align: center;
+    font-size:2em;
+}
+.content-tile{
+    line-height:1.2;
+    padding-left:10px;
+    padding-right:10px;
+}
+.go-to-top{
+    position: absolute;
+    bottom:15px;
+}
+.go-to-top a{
+    color:#951C49;
+    text-decoration:underline;
+}
+/* END MAIN CONTENT */
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+    /* Header */
+    /* End Header */
+    
+    /* Home Page */
+
+    /* End Home Page */
+}
+
+/********** smalldevices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    /* Header */
+    /* End Header */
+    
+    /* Home Page */
+
+    /* End Home Page */
+}
+
+/********** extra small devices only **********/
+@media (max-width: 767px) {
+    /* Header */
+#header-nav .container{
+    padding:0 0 0 0;
+    border:0px;
+    margin-bottom:0;
+}
+.navbar-brand {
+    padding-top: 10px;
+    height: 40px;
+    float:left;
+}
+.navbar-brand h1 { /* company name */
+    padding-top: 10px;
+}
+.navbar-toggle{
+     margin-top:15px;
+     margin-bottom:0;
+}
+#collapsable-nav{
+    margin-top:55px;
+    margin-left:0;
+    margin-right:0;
+    margin-bottom:0;
+}
+#collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    background-color:#e9e774ee;
+}
+      /* End Header */
+
+}
